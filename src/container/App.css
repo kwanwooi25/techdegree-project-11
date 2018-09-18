@@ -1,0 +1,35 @@
+header {
+  background: #275270;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  background: #eee;
+  color: #555;
+  padding-top: .5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+footer p {
+  font-size: 0.8rem;
+  margin: 0;
+  padding-bottom: .5rem;
+}
+
+@media only screen and (min-width: 768px)  {
+  main {
+    max-width: 960px;
+    margin: auto;
+  }
+}

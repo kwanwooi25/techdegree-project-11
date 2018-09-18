@@ -1,0 +1,24 @@
+.not-found {
+  margin: 3rem 0;
+}
+
+.not-found h1 {
+  font-size: 3rem;
+}
+
+.not-found p {
+  font-size: 1.5rem;
+}
+
+.not-found a {
+  border-bottom: 5px solid transparent;
+  color: #438bbd;
+  font-size: 1.5rem;
+  padding: 0.25rem;
+}
+
+.not-found a:hover {
+  border-bottom: 5px solid #275270;
+  color: #275270;
+  transition: .2s;
+}
